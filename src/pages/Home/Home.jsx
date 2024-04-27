@@ -40,6 +40,8 @@ return(
       <div className="productName">{product.productName}</div>
       <div className="productDescription">{product.productDescription}</div>
       <p>{product.productMaterial}</p>
+      <p>{product.productMaterial}</p>
+      
     </div>
   </div>
 )
