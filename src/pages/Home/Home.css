@@ -1,4 +1,11 @@
+.card-container{
+  display:flex;
+  justify-content: space-around;
+  flex-wrap:wrap;
+}
 .card {
+  
+  margin-bottom: 20px;
     max-width: 300px;
     margin: 20px auto;
     border: 1px solid #ccc;

@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css'
 import {useState} from 'react'
-import  Navbar from '../../components/Navbar/Navbar';
+import  Navbar from '../../components/Navbar/Navbar.jsx';
 import {useEffect} from 'react'
 import axios from 'axios';
 const Home = () => {
@@ -27,7 +27,7 @@ console.log(products);
 return (
 <>
 <Navbar/>
-
+<div className="card-container">
 
 {
   products.map((product)=>{
@@ -40,7 +40,6 @@ return(
       <div className="productName">{product.productName}</div>
       <div className="productDescription">{product.productDescription}</div>
       <p>{product.productMaterial}</p>
-      <p>{product.productMaterial}</p>
       
     </div>
   </div>
@@ -49,7 +48,7 @@ return(
 })
 }
 
-
+</div>
   </>
 
   )
