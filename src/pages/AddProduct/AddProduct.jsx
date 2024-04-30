@@ -5,6 +5,7 @@ import Navbar from "../../components/Navbar/Navbar.jsx"
 import axios from 'axios'
 import{useNavigate} from 'react-router-dom'
 const AddProduct = () => {
+    
 const navigate=useNavigate();
 
 // First Approach
@@ -30,7 +31,7 @@ const navigate=useNavigate();
 
 // }
 
-// Second Approach
+// ======================== Second Approach used if pdf file input ngarne parema ========================
 // in this approach no need of write usestate in each code
 // const addProduct=async(e)=>{
 
@@ -49,7 +50,7 @@ const navigate=useNavigate();
 // }
 
 
-// Third Approach
+//  =====================Third Approach used most ==============================
 
 
 const[data,setData]=useState({
